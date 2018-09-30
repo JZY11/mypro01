@@ -21,5 +21,5 @@ while True:
     salarySum += float(s)
 
 print("员工数{0}".format(empNum))
-print("录入薪资{0}".format(salarys))
+print("录入薪资",salarys)
 print("录入的平均薪资{0}".format(salarySum/empNum))
