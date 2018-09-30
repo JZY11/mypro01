@@ -37,3 +37,4 @@ for x in d.values():    # 遍历字典中所有的value
 for x in d.items(): # 遍历字典中所有的“键值对”
     print(x)
 
+# range对象
