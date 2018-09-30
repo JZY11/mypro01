@@ -37,4 +37,39 @@ for x in d.values():    # 遍历字典中所有的value
 for x in d.items(): # 遍历字典中所有的“键值对”
     print(x)
 
-# range对象
+
+'''
+    range对象是一个迭代器对象 ，用来产生指定范围的数字序列，格式为：
+        range(start,end [,step])
+        生成的数值序列从start开始到end结束（不包含end），若没有填写start则默认从0开始，step是可选的步长，默认为1
+        一下是简单示例：
+            for i in range(10)      产生序列：0 1 2 3 4 5 6 7 8 9
+            for i in range(3,10)    产生序列：3 4 5 6 7 8 9 
+            for i in range(3,10,2)  产生序列：3 5 7 9
+'''
+for i in range(6):
+    print(i)
+print("==========================================")
+sum_all = 0   #1 - 100 之间数字的累加和
+sum_even = 0  #1 - 100之间偶数的累加和
+sum_odd = 0   #1- 100之间奇数的累加和
+
+for num in range(101):
+    sum_all += num
+    if num % 2 == 0: sum_even += num
+    else:sum_odd += num
+
+print("1 - 100 之间数字的累加和:",sum_all)
+print("1 - 100之间偶数的累加和:",sum_even)
+print("1- 100之间奇数的累加和:",sum_odd)
+
+
+
+
+
+
+
+
+
+
+
