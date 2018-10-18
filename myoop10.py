@@ -1,4 +1,4 @@
-# @property 装饰器的用法
+# @property 装饰器的用法(getter setter)
 
 class Employee:
 
